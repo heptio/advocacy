@@ -1,11 +1,5 @@
-# Advocacy at Heptio
+# Advocacy
 
+Original proposal can be found [here](https://docs.google.com/document/d/1Ae00vCuKbqmFAZ3b48Tl0ZrYTWWybBxgKi4RDlE9mH8/edit)
 
-This repository serves as an archive, and community working space for advocacy at Heptio.
-
-
-# What is advocacy?
-
-
-Helping users (both internally and externally) understand how and when to use open source and Heptio products.
 
