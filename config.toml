@@ -1,3 +1,114 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Heptio Advocacy"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Heptio Advocacy" # Set a different text for the header on the home page
+  subtitle = "Sharing how and when to use Kubernetes"
+  logo = "img/Mark.png"
+  #logo = "img/avatar-icon.png"
+  #logo = "img/HeptioGophersNoGround.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = false
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Heptio Advocacy"
+  website = "yourwebsite.com"
+  email = "advocacy@heptio.com"
+  #facebook = "username"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "heptio"
+  #gitlab = "username"
+  #bitbucket = "username"
+  twitter = "heptio"
+  #reddit = "username"
+  #linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  youtube = "channel/heptio" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+
+
+#############################################################################################################################################
+#
+# MENU
+#
+#
+#############################################################################################################################################
+
+[[menu.main]]
+    name = "Blog"
+    url = "post"
+    weight = 3
+
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "TGIK"
+    url = "page/tgik"
+    weight = 2
+
+
+[[menu.main]]
+    identifier = "heptonians"
+    name = "Heptonians"
+    weight = 4
+
+[[menu.main]]
+    parent = "heptonians"
+    name = "Kris Nova"
+    url = "page/kris-nova"
+    weight = 1
+
+[[menu.main]]
+    identifier = "events"
+    name = "Events"
+    weight = 5
+
+[[menu.main]]
+    parent = "events"
+    name = "ExampleCon"
+    url = "event/examplecon-2018"
+    weight = 1
