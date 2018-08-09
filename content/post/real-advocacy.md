@@ -9,3 +9,5 @@ author: Kris Nova
 Here would be a blogpost about Heptio advocacy.
 
 Making a quick change!
+
+And another quick change!
