@@ -43,14 +43,12 @@
           {{ .Site.LastChange.Format "2006" }}
 
           {{ if .Site.Title }}
-            &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+            &nbsp;
+           <!-- &nbsp;&bull; <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a> -->
           {{ end }}
         </p>
-        <!-- Please don't remove this, keep my open source work credited :) -->
         <p class="credits theme-by text-muted">
-          {{ i18n "poweredBy" . | safeHTML }}
-          {{ with .Site.Params.commit }}&nbsp;&bull;&nbsp;[<a href="{{.}}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]{{ end }}
+            Brought to you by Heptio
         </p>
       </div>
     </div>
