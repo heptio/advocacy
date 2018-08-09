@@ -25,3 +25,4 @@ Push the image
 ```bash
 docker push
 ```
+
