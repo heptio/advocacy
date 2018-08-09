@@ -11,6 +11,7 @@ Running the site locally:
 hugo serve -D
 ```
 
+
 # Building
 
 Build a docker image:
@@ -24,4 +25,3 @@ Push the image
 ```bash
 docker push
 ```
-
