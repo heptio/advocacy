@@ -71,7 +71,6 @@ pygmentsCodefencesGuessSyntax = true
 #
 # MENU
 #
-#
 #############################################################################################################################################
 
 [[menu.main]]
@@ -81,8 +80,8 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
+    name = "Home"
+    url = "/"
     weight = 1
 
 [[menu.main]]

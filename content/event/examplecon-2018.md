@@ -2,6 +2,7 @@
 title: Example Con
 subtitle: The best conference to learn about examples
 comments: true
+date: 1/2/2018
 ---
 
 # Example Con 2018
