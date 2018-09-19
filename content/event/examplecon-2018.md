@@ -18,3 +18,5 @@ func Example() error {
 }
 
 ```
+
+A great change!
