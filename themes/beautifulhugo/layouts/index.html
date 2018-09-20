@@ -8,6 +8,10 @@
           </div>
         {{ end }}
 
+          <div class="posts-list">
+          {{ partial "calendar" (dict "context" . "from" 2018 "fromMonth" 10 "to" (now.Format "2006") "toMonth" (now.Format "1") "pages" .Site.Pages) }}
+          </div>
+
         <div class="posts-list">
           {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
           {{ range $pag.Pages }}
