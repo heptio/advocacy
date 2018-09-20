@@ -1,4 +1,4 @@
-baseurl = "https://username.github.io"
+baseurl = "/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Heptio Advocacy"
