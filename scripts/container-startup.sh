@@ -15,7 +15,7 @@ HUGO_INTERNAL_PORT=80
 HUGO_BIND_ADDR="0.0.0.0"
 
 # Change this to change the hugo command we run in the container
-HUGO_COMMAND="hugo serve -D --port ${HUGO_INTERNAL_PORT} --bind ${HUGO_BIND_ADDR}"
+HUGO_COMMAND="hugo serve -D --port ${HUGO_INTERNAL_PORT}
 
 # Change this to change the time the process will run for, before it times out
 # This is a random number between 30 and 600
