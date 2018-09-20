@@ -1,4 +1,5 @@
-baseurl = "https://advocacy.corp.heptio.net/"
+
+baseurl = "/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Heptio Advocacy"
