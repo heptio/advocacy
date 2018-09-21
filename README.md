@@ -23,8 +23,10 @@ Running the site locally:
 
 
 ```bash
-hugo serve -D
+hugo serve -D -F
 ```
+
+Then you can open `localhost:1313` in your browser
 
 
 # Building
@@ -32,12 +34,12 @@ hugo serve -D
 Build a docker image:
 
 ```bash
-docker build -t krisnova/advocacy .
+make container
 ```
 
 Push the image
 
 ```bash
-docker push
+make push
 ```
 
