@@ -14,6 +14,12 @@ pygmentsCodefencesGuessSyntax = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
+# adding taxonomy term 'archive'
+[taxonomies]
+    tag = "tags"
+    archive = "archive"
+    category = "categories"
+
 [Params]
 #  homeTitle = "Heptio Advocacy" # Set a different text for the header on the home page
   subtitle = "Sharing how and when to use Kubernetes"
@@ -112,3 +118,4 @@ pygmentsCodefencesGuessSyntax = true
     name = "ExampleCon"
     url = "event/examplecon-2018"
     weight = 1
+

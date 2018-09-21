@@ -1,6 +1,6 @@
 
 
-## What are we up to?
+## Heptio Events
 
 This site is a constantly updated resource for all things Heptio!
 

@@ -26,7 +26,8 @@ COMMAND_TIMEOUT_SECONDS=$(( ((RANDOM<<15)|RANDOM) % 300 + 600 ))
 echo "-----"
 echo "Exec timeout: ${COMMAND_TIMEOUT_SECONDS} seconds"
 echo "-----"
-timeout -t ${COMMAND_TIMEOUT_SECONDS} ${HUGO_COMMAND}
+ # timeout -t ${COMMAND_TIMEOUT_SECONDS} ${HUGO_COMMAND}
+hugo serve -D --port ${HUGO_INTERNAL_PORT}
 ########################################################################################################################
 
 
