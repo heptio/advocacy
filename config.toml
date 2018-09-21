@@ -121,7 +121,8 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "events"
-    name = "ExampleCon"
-    url = "event/examplecon-2018"
+    name = "September 2018"
+    url = "archive/2018-09"
     weight = 1
+
 
