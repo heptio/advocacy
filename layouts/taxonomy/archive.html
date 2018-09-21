@@ -19,6 +19,9 @@
                         {{ .Params.subtitle }}
                         </h3>
                     {{ end }}
+                    {{ if .Params.author }}
+                        <h4 class="post-subtitle"> {{ .Params.author}} </h4>
+                    {{ end }}
                     {{ if .Params.image }}
                         <img src="{{ .Params.image }}" class="img-title" />
                     {{ end }}
