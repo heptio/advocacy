@@ -109,6 +109,12 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
+    parent = "heptonians"
+    name = "Carlisia"
+    url = "page/carlisia"
+    weight = 2
+
+[[menu.main]]
     identifier = "events"
     name = "Events"
     weight = 5

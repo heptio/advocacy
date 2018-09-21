@@ -10,7 +10,7 @@ comments: false
 
  - GitHub [kris-nova](https://github.com/kris-nova)
  - Twitter [@krisnova](https://twitter.com/krisnova)
- - LinkedIn [kris-nova](https://linkedin.com/kris-nova)
+ - LinkedIn [kris-nova](https://linkedin.com/in/kris-nova)
 
 ## Author
 
