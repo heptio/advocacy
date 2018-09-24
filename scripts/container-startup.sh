@@ -27,7 +27,7 @@ echo "-----"
 echo "Exec timeout: ${COMMAND_TIMEOUT_SECONDS} seconds"
 echo "-----"
  # timeout -t ${COMMAND_TIMEOUT_SECONDS} ${HUGO_COMMAND}
-hugo serve -D --port ${HUGO_INTERNAL_PORT}
+hugo serve --bind "${HUGO_BIND_ADDR}" -D --port ${HUGO_INTERNAL_PORT}
 ########################################################################################################################
 
 
