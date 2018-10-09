@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Heptio Advocacy</title>
-    <link>https://advocacy.corp.heptio.net/page/</link>
+    <link>/page/</link>
     <description>Recent content in Pages on Heptio Advocacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>advocacy@heptio.com (Heptio Advocacy)</managingEditor>
     <webMaster>advocacy@heptio.com (Heptio Advocacy)</webMaster>
     
-	<atom:link href="https://advocacy.corp.heptio.net/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Advocacy at Heptio</title>
-      <link>https://advocacy.corp.heptio.net/page/about/</link>
+      <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>https://advocacy.corp.heptio.net/page/about/</guid>
+      <guid>/page/about/</guid>
       <description>About Advocacy is advocating!</description>
     </item>
     
     <item>
       <title>Carlisia Pinto</title>
-      <link>https://advocacy.corp.heptio.net/page/carlisia/</link>
+      <link>/page/carlisia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>https://advocacy.corp.heptio.net/page/carlisia/</guid>
+      <guid>/page/carlisia/</guid>
       <description>Find me online  GitHub carlisia Twitter @carlisia LinkedIn carlisia Contact for speaking engagements carlisia @ CNCF  Biography  Carlisia Pinto is a graduate of Boston University where she earned a masters degree in Computer Science. She currently works as a senior systems software engineer at Heptio, a company that empowers the enterprise to realize the full potential of Kubernetes. Carlisia works on the open source project Heptio Ark, a system for backup and disaster recovery for Kubernetes clusters.</description>
     </item>
     
     <item>
       <title>Kris Nova</title>
-      <link>https://advocacy.corp.heptio.net/page/kris-nova/</link>
+      <link>/page/kris-nova/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>https://advocacy.corp.heptio.net/page/kris-nova/</guid>
+      <guid>/page/kris-nova/</guid>
       <description>Find me online  GitHub kris-nova Twitter @krisnova LinkedIn kris-nova  Author  Cloud Native Infrastructure  Biography  Kris Nova is a senior developer advocate at Heptio focusing on containers, infrastructure, and Kubernetes. Kris is also an ambassador for the Cloud Native Computing Foundation. Previously, she was a developer advocate and an engineer on Kubernetes in Azure at Microsoft. Kris has a deep technical background in the Go programming language and has authored many successful tools in Go.</description>
     </item>
     
     <item>
       <title>TGIK</title>
-      <link>https://advocacy.corp.heptio.net/page/tgik/</link>
+      <link>/page/tgik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>https://advocacy.corp.heptio.net/page/tgik/</guid>
+      <guid>/page/tgik/</guid>
       <description> TGIK TGIK is a weekly live stream from the Heptio studio in Seattle! Each week we pick an open source tool from the Kubernetes ecosystem and hack on it live!
 Resources  Link to the repo Link to the YouTube channel etc&amp;hellip;  </description>
     </item>
