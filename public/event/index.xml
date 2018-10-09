@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Heptio Advocacy</title>
+    <link>/event/</link>
+    <description>Recent content in Events on Heptio Advocacy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>advocacy@heptio.com (Heptio Advocacy)</managingEditor>
+    <webMaster>advocacy@heptio.com (Heptio Advocacy)</webMaster>
+    <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cloud Native London</title>
+      <link>/event/cloud-native-london-2018/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <author>advocacy@heptio.com (Heptio Advocacy)</author>
+      <guid>/event/cloud-native-london-2018/</guid>
+      <description>Kris Nova shares years of experience with managing cloud native infrastructure with Kubernetes. In this keynote you will learn about declarative infrastructure, the work being driven in upstream Kubernetes by Heptio and Google, and the philosophy behind the new hero in creating a mutating Kubernetes clusters.
+ Link to event page  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/event/something/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>advocacy@heptio.com (Heptio Advocacy)</author>
+      <guid>/event/something/</guid>
+      <description>Testing operator</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/event/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>advocacy@heptio.com (Heptio Advocacy)</author>
+      <guid>/event/test/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/event/test3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>advocacy@heptio.com (Heptio Advocacy)</author>
+      <guid>/event/test3/</guid>
+      <description>Another test</description>
+    </item>
+    
+  </channel>
+</rss>
