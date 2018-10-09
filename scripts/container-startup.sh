@@ -14,23 +14,7 @@ HUGO_INTERNAL_PORT=80
 # Change this to change the bind address for the program inside the container
 HUGO_BIND_ADDR="0.0.0.0"
 
-# Change this to change the hugo command we run in the container
-HUGO_COMMAND="hugo serve -D -F --port ${HUGO_INTERNAL_PORT}"
-
-# Change this to change the time the process will run for, before it times out
-# This is a random number between 30 and 600
-COMMAND_TIMEOUT_SECONDS=$(( ((RANDOM<<15)|RANDOM) % 300 + 600 ))
-
-
 ########################################################################################################################
-echo "-----"
-echo "Exec timeout: ${COMMAND_TIMEOUT_SECONDS} seconds"
-echo "-----"
  # timeout -t ${COMMAND_TIMEOUT_SECONDS} ${HUGO_COMMAND}
-hugo serve --bind "${HUGO_BIND_ADDR}" -D --port ${HUGO_INTERNAL_PORT}
+hugo serve --bind "${HUGO_BIND_ADDR}" -D --port ${HUGO_INTERNAL_PORT} -F
 ########################################################################################################################
-
-
-# Plz can haz reschedule
-exit 0
-
