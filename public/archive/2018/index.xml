@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 on Heptio Advocacy</title>
-    <link>/archive/2018/</link>
+    <link>https://advocacy.corp.heptio.net/archive/2018/</link>
     <description>Recent content in 2018 on Heptio Advocacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>advocacy@heptio.com (Heptio Advocacy)</managingEditor>
     <webMaster>advocacy@heptio.com (Heptio Advocacy)</webMaster>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/archive/2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://advocacy.corp.heptio.net/archive/2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cloud Native London</title>
-      <link>/event/cloud-native-london-2018/</link>
+      <link>https://advocacy.corp.heptio.net/event/cloud-native-london-2018/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>/event/cloud-native-london-2018/</guid>
+      <guid>https://advocacy.corp.heptio.net/event/cloud-native-london-2018/</guid>
       <description>Kris Nova shares years of experience with managing cloud native infrastructure with Kubernetes. In this keynote you will learn about declarative infrastructure, the work being driven in upstream Kubernetes by Heptio and Google, and the philosophy behind the new hero in creating a mutating Kubernetes clusters.
  Link to event page  </description>
     </item>
