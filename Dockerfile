@@ -1,6 +1,13 @@
-FROM jguyomard/hugo-builder
+FROM nginx:latest
 MAINTAINER Kris Nova "knova@heptio.com"
-RUN mkdir -p /go/src/github.com/heptio/advocacy
-ADD . /go/src/github.com/heptio/advocacy
-WORKDIR /go/src/github.com/heptio/advocacy
-CMD ["sh", "scripts/container-startup.sh"]
+
+# Configure nginx
+RUN rm -v /etc/nginx/nginx.conf
+ADD scripts/nginx.conf /etc/nginx/
+ADD ./public /var/www/html/
+ADD ./public /usr/share/nginx/html/
+ADD scripts/container-startup.sh container-startup.sh
+RUN echo "daemon off;" >> /etc/nginx/nginx.conf
+
+# Startup script
+CMD ["sh", "container-startup.sh"]
