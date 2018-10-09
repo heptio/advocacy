@@ -1,4 +1,5 @@
-baseurl = "https://username.github.io"
+
+baseurl = "/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Heptio Advocacy"
@@ -12,6 +13,12 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
+
+# adding taxonomy term 'archive'
+[taxonomies]
+    tag = "tags"
+    archive = "archive"
+    category = "categories"
 
 [Params]
 #  homeTitle = "Heptio Advocacy" # Set a different text for the header on the home page
@@ -102,12 +109,20 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
+    parent = "heptonians"
+    name = "Carlisia"
+    url = "page/carlisia"
+    weight = 2
+
+[[menu.main]]
     identifier = "events"
     name = "Events"
     weight = 5
 
 [[menu.main]]
     parent = "events"
-    name = "ExampleCon"
-    url = "event/examplecon-2018"
+    name = "September 2018"
+    url = "archive/2018-09"
     weight = 1
+
+
