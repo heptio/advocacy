@@ -9,12 +9,13 @@
 ########################################################################################################################
 
 # Change this to change what port the program listens on inside the container
-HUGO_INTERNAL_PORT=80
+ADVOCACY_LISTEN_PORT=${ADVOCACY_LISTEN_PORT:-80}
 
 # Change this to change the bind address for the program inside the container
-HUGO_BIND_ADDR="0.0.0.0"
+ADVOCACY_BASE_URL=${ADVOCACY_BASE_URL:-"https://advocacy.corp.heptio.net"}
+
 
 ########################################################################################################################
  # timeout -t ${COMMAND_TIMEOUT_SECONDS} ${HUGO_COMMAND}
-hugo serve -D --port ${HUGO_INTERNAL_PORT} -F
+hugo serve -D --port ${HUGO_INTERNAL_PORT} -F -b ${ADVOCACY_BASE_URL}
 ########################################################################################################################
