@@ -23,33 +23,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/event/something/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>/event/something/</guid>
-      <description>Testing operator</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/event/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>/event/test/</guid>
-      <description>test</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/event/test3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>advocacy@heptio.com (Heptio Advocacy)</author>
-      <guid>/event/test3/</guid>
-      <description>Another test</description>
-    </item>
-    
-    <item>
       <title>About Advocacy at Heptio</title>
       <link>/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

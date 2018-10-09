@@ -13,18 +13,6 @@
   </url>
   
   <url>
-    <loc>/event/something/</loc>
-  </url>
-  
-  <url>
-    <loc>/event/test/</loc>
-  </url>
-  
-  <url>
-    <loc>/event/test3/</loc>
-  </url>
-  
-  <url>
     <loc>/archive/2018/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
