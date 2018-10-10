@@ -1,7 +1,7 @@
 +++
 date = "2018-10-11"
 archive = ["2018-10-11", "2018", "2018-10"]
-title = "A wonderful title"
+title = "Nike Tech Talk Portland"
 description = "Nike Tech Talk Portland"
 author = "Kris Nova"
 subtitle = "Cloud Native Infrastructure"
@@ -14,7 +14,5 @@ Join Kris Nova, Senior Developer Advocate at Heptio, at the Nike Tech Talks on O
 Enjoy snacks and beverages, as you network with fellow tech enthusiasts before and after the talk.
 
 
- * [More Information!](https://niketechtalksoct2018.splashthat.com)
-
-
+ * [More Information](https://niketechtalksoct2018.splashthat.com)
 
