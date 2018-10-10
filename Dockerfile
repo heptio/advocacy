@@ -2,7 +2,7 @@ FROM jguyomard/hugo-builder
 RUN mkdir -p /go/src/github.com/heptio/advocacy
 ADD . /go/src/github.com/heptio/advocacy
 WORKDIR /go/src/github.com/heptio/advocacy
-RUN hugo
+RUN hugo -D -F
 
 
 FROM nginx:latest
