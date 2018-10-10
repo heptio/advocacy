@@ -1,5 +1,5 @@
 
-baseurl = "https://advocacy.corp.heptio.net/"
+baseurl = "/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Heptio Advocacy"
@@ -81,21 +81,9 @@ pygmentsCodefencesGuessSyntax = true
 #############################################################################################################################################
 
 [[menu.main]]
-    name = "Blog"
-    url = "post"
-    weight = 3
-
-
-[[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-
-[[menu.main]]
-    name = "TGIK"
-    url = "page/tgik"
-    weight = 2
-
 
 [[menu.main]]
     identifier = "heptonians"
@@ -125,4 +113,14 @@ pygmentsCodefencesGuessSyntax = true
     url = "archive/2018-09"
     weight = 1
 
-
+[[menu.main]]
+    parent = "events"
+    name = "October 2018"
+    url = "archive/2018-10"
+    weight = 1
+    
+[[menu.main]]
+    parent = "events"
+    name = "November 2018"
+    url = "archive/2018-11"
+    weight = 1

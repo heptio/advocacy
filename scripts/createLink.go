@@ -8,9 +8,6 @@ import (
 	"github.com/kubicorn/kubicorn/pkg/namer"
 )
 
-const
-
-
 // main just runs our simple go script
 func main() {
 	err := run()

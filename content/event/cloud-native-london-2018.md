@@ -2,7 +2,7 @@
 date = "2018-09-27"
 archive = ["2018-09-27", "2018", "2018-09"]
 title = "Cloud Native London"
-description = "CNCF Conference in London"
+description = "Cloud Native Conference in London"
 author = "Kris Nova"
 subtitle = "Declarative Infrastructure with Kubernetes"
 slug = "cloud-native-london-2018"
