@@ -5,9 +5,10 @@
 1) Create a new event markdown file in `/content/event/` and give it any name you'd like.
    a) You can copy the sample `example.sample` to get you started 
 2) Ensure your `date` and `archive` fields (line 2 and 3) are accurate as they will populate on the calendar
-3) Submit a PR
-4) You will recieve an email to the email address you commited your change with that will contain a trackable link once it's merged to master
-5) Use that link and get advocacy points
+3) Ensure that the `slug` field matches exactly the name of the file. `my-file.md` should have the slug `my-file`. We use this to generate a link for you.
+4) Send a PR
+5) You will recieve an email to the email address you commited your change with that will contain a trackable link once it's merged to master
+6) Use that link and get advocacy points
 
 ### Creating your heptonian page
 
