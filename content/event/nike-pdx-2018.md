@@ -15,4 +15,8 @@ Enjoy snacks and beverages, as you network with fellow tech enthusiasts before a
 
 
  * [More Information](https://niketechtalksoct2018.splashthat.com)
+ 
+ * [Free Book Download](https://blog.heptio.com/i-still-remember-the-first-time-i-logged-into-a-production-server-over-ssh-and-telling-myself-i-53ab1d1e7f46?gi=2ba71e54b67d)
+ 
+ * [Link to Slides](https://docs.google.com/presentation/d/14gi_iX0A8Wfq6duKw8ukd1onYsE-evqQXM_61wrgTlM/edit#slide=id.p)
 
