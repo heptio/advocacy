@@ -6,7 +6,7 @@ description = "This wonderful event"
 author = "Dave Cheney"
 subtitle = "Addressing the limitations of Kubernetes' Ingress object"
 slug = "gdg-devfest-2018"
-tags = ["Kubernetes", "k8s", "ingress", "contour", "ingressroute"]]
+tags = ["Kubernetes", "k8s", "ingress", "contour", "ingressroute"]
 +++
 
 The Kubernetes Ingress object has a number of limitations which over the years have been papered over with annotations.
