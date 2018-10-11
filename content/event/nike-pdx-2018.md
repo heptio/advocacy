@@ -22,3 +22,6 @@ Enjoy snacks and beverages, as you network with fellow tech enthusiasts before a
  
  * [Cluster API for AWS](https://github.com/kubernetes-sigs/cluster-api-provider-aws)
 
+# Cloud Native Infrastructure with Heptio 
+
+To find out more about how Heptio can help you operationalize Kubernetes please [contact us](tanner@heptio.com) at Heptio! 
