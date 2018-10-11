@@ -4,7 +4,7 @@ archive = ["2018-11-02", "2018", "2018-11"]
 title = "Kris Nova - Keynote"
 description = "Keynote at Velocity London"
 author = "Kris Nova"
-subtitle = "Cloud Native Infrasturcture on Premise"
+subtitle = "Cloud Native Infrastructure on Premise"
 slug = "velocity-london-2018"
 tags = ["Kubernetes", "k8s"]
 +++
