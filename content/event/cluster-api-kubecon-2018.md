@@ -15,6 +15,7 @@ The Cluster API is a new project bringing in members from many of these well-kno
 
 # Links
 
+ - [Official Schedule Page](https://kccna18.sched.com/event/GrWT/use-the-cluster-api-to-deploy-clusters-on-prem-and-in-public-clouds-loc-nguyen-vmware-kris-nova-heptio)
  - [Slides](https://docs.google.com/presentation/d/1NfJihQ0mnEXU7i8M-rbnJQqAhmWYJS2ENKOmP7NViL4/edit)
  - [Cluster API GitHub Repository](https://github.com/kubernetes-sigs/cluster-api)
 
